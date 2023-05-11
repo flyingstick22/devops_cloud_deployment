@@ -17,7 +17,7 @@ def app():
     altitude = int(location["altitude"])
 
     #map & metrics visualization
-    st.title("Where is ISS ?")
+    st.title("Where is ISS? This App is deployed through Github Actions to Heroku")
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("Speed km/h", speed)
     col2.metric("Altitude in km", altitude)
