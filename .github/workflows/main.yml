@@ -1,9 +1,9 @@
-name: Deploy_ISS_App
+name: Deploy
 
 on:
   push:
     branches:
-      - master
+      - main
       
       
 jobs:
